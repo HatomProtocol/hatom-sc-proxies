@@ -1,0 +1,12 @@
+[package]
+name = "ush-facilitators"
+version = "0.0.0"
+authors = ["Hatom Labs"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+multiversx-sc = { version = "0.53.0" }

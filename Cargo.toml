@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "isolated-lending-protocol",
+    "lending-protocol",
+    "rewards-booster",
+    "liquid-staking",
+    "ush-facilitators"
+]
+resolver = "2"

@@ -1,0 +1,15 @@
+[package]
+name = "isolated-lending-protocol"
+version = "0.0.0"
+authors = ["Hatom Labs"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+multiversx-sc = { version = "0.53.0" }
+
+[dev-dependencies]
+multiversx-sc-scenario = { version = "0.53.0" }

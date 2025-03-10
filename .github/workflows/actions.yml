@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - devnet
+      - develop
+  pull_request:
+    branches:
+      - main
+      - devnet
+      - develop
+
+permissions:
+  checks: write
+  contents: read
+  pull-requests: write
+
+jobs:
+  contracts:
+    name: Contracts
+    uses: HatomProtocol/hatom-sc-actions/.github/workflows/contracts.yml@main
+    with:
+      rust-toolchain: nightly-2024-12-01
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}

@@ -6,5 +6,6 @@ members = [
     "liquid-staking",
     "ush-facilitators",
     "account-manager",
+    "ush-staking",
 ]
 resolver = "2"

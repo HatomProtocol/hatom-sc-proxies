@@ -4,6 +4,7 @@ members = [
     "lending-protocol",
     "rewards-booster",
     "liquid-staking",
-    "ush-facilitators"
+    "ush-facilitators",
+    "account-manager",
 ]
 resolver = "2"
